@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="xinabox-SL01",
-    version="0.0.1",
+    version="0.0.2",
     author="Luqmaan Baboo",
     author_email="luqmaanbaboo@gmail.com",
     description="Light Sensor",
