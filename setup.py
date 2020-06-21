@@ -4,13 +4,14 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="xinabox-SL01",
-    version="0.0.3",
+    version="0.0.4",
     author="Luqmaan Baboo",
     author_email="luqmaanbaboo@gmail.com",
     description="Light Sensor",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/xinabox/Python-SL01",
+    py_modules=["xSL01",],
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
